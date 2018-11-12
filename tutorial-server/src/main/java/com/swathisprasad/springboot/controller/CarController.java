@@ -21,6 +21,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
  */
 @RestController
 @RequestMapping("/api")
+@CrossOrigin("https://car-app141.herokuapp.com")
 public class CarController {
 
 	private CarRepository repository;
