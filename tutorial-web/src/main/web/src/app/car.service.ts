@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
     providedIn: 'root'
 })
 export class CarService {
-    private userUrl = 'http://localhost:8090/api';
+    private userUrl = 'https://car-app141.herokuapp.com/api';
 
     constructor(private http: HttpClient) {
     }
