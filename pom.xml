@@ -12,8 +12,8 @@
 	  <relativePath />
   </parent>
   <modules>
-   <module>tutorial-server</module>
     <module>tutorial-web</module>
+    <module>tutorial-server</module>
   </modules>
   
   <dependencies>
