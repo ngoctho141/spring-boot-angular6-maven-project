@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar tutorial-server/target/*.jar --p $PORT
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --p $PORT tutorial-server/target/*.war
