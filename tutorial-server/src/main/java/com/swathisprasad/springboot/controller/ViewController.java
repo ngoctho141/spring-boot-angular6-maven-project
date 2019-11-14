@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ViewController {
 
-    @CrossOrigin("https://car-app141.herokuapp.com")
+    @CrossOrigin("https://tranquil-cliffs-30789.herokuapp.com/")
     @GetMapping("/car-list")
     public String home() {
         return "forward:/index.html";
